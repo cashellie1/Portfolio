@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cashel's Portfolio</title>
+    <script src="https://kit.fontawesome.com/c90c7d3129.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1, h2, h3, h4, h5, h6, li {
+            font-family: "Noto Sans ", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+        }
+
+        p {
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+            font-size: 1.25em;
+        }
+
+        #logo {
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        a {
+          text-decoration: none;
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <header class="header-container">
+      <a href="./index.html"><div id="logo">CASHEL BOH</div></a>
+      <nav class="navigation_items" aria-label="Main Navigation">
+        <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class="header__menu">
+            <li><a class="header__link" href="#works">Works</a></li>
+            <li><a class="header__link" href="#about">About</a></li>
+            <li><a class="header__link" href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+        <div class="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+       </div>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main class="hero-section">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+       <div class="hero-info">
+         <h2>Hey, I'm Cashel!</h2>
+         <h1>I'M A <span class="dynamic-txts"></span></h1>
+         <p><i>Creating beautiful and engaging web experiences in Sydney, Australia.</i></p>
+       </div>
+       <div class="right-btns">
+         <a href="#contact" class="btn-1">CONTACT</a>
+         <a href="#works" class="btn-2">WORKS</a>
+       </div>
+      </div>
+    </main>
+    <section class="about-section" id="about">
+      <hr>
+      <h5> About</h5>
+      <div class="about-info">
+      <p class="reveal-type">Back in 2017, I was designing my first website for a friend’s apparel line using WIX and tumbled headfirst into the rabbit hole of coding and all things behind web development.
+      Fast-forward to today, I’m a recent front-end development graduate at TAFE and thrive on bringing designs to life with creativity and precision.</p>
+       <div class="scroller">
+        <ul class="tag-list scroller__inner">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JS</li>
+          <li>UI/UX</li>
+          <li>PHOTOSHOP</li>
+          <li>FIGMA</li>
+          <li>XML</li>
+          <li>XSD</li>
+          <li>JQUERY</li>
+          <li>REACT</li>
+          <li>PHP</li>
+        </ul>
+       <a href="/Cashel-CV.pdf"><div class="resume-btn">VIEW RESUME</div></a>
+      </div>
+      </div>
+    </section>
+    <section class="works-section" id="works">
+      <hr>
+      <h5>Selected Works</h5>
+      <div class="container">
+          <div class="displayed">
+              <div class="info" data-index="0">
+                  <a href="Case-Studies-Page/project-3.html" target="_blank">
+                      <div class="title-year">
+                          <h3>More</h3>
+                          <h4>/24</h4>
+                      </div>
+                      <p>Web Design, Web Development</p>
+                      <img src="/images/More-recyclers.png" alt="More Website Design & Development" class="gallery-img">
+                  </a>
+              </div>
+              <div class="info" data-index="1">
+                  <a href="Case-Studies-Page/project-2.html" target="_blank">
+                      <div class="title-year">
+                          <h3>9 Creation Studio</h3>
+                          <h4>/24</h4>
+                      </div>
+                      <p>Web Design, Web Development</p>
+                      <img src="/images/9-creation-Studio-Design.png" alt="9creation Studio Design & Development" class="gallery-img">
+                  </a>
+              </div>
+              <div class="info" data-index="2">
+                  <a href="Case-Studies-Page/project-1.html" target="_blank">
+                      <div class="title-year">
+                          <h3>Barebone Swimwear</h3>
+                          <h4>/23</h4>
+                      </div>
+                      <p>Web Design, Shopify Development</p>
+                      <img src="/images/Barebone-Swimwear-Design.png" alt="Barebone Swim Website Design" class="gallery-img">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="works-section-mobile" id="works-mobile">
+    <hr>
+    <h5>Selected Works</h5>
+      <div class="grid-mobile">
+        <div class="info-mobile" data-index="0">
+          <a href="/Case-Studies-Page/project-3.html" >
+              <img src="/images/More-recyclers.png" alt="More Website Design & Development" class="gallery-img-mobile">
+              <div class="overlay-mobile">
+                <div class="title-year-mobile">
+                  <h3>More</h3>
+                  <h4>/24</h4>
+                </div>
+              </div>
+          </a>
+        </div>
+        <div class="info-mobile" data-index="1">
+          <a href="/Case-Studies-Page/project-2.html" >
+              <img src="/images/9-creation-Studio-Design.png" alt="9creation Studio Design & Development" class="gallery-img-mobile">
+              <div class="overlay-mobile">
+                <div class="title-year-mobile">
+                  <h3>9 Creation Studio</h3>
+                  <h4>/24</h4>
+                </div>
+              </div>
+          </a>
+        </div>
+        <div class="info-mobile" data-index="2">
+          <a href="/Case-Studies-Page/project-1.html" >
+              <img src="/images/Barebone-Swimwear-Design.png" alt="Barebone Swim Website Design" class="gallery-img-mobile">
+              <div class="overlay-mobile">
+                <div class="title-year-mobile">
+                  <h3>Barebone Swimwear</h3>
+                  <h4>/23</h4>
+                </div>
+              </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  <article class="hobbies">
+  <div class="text-flex">
+    <h5>Creatives</h5>
+    <p class="reveal-type">Briding user needs and organizational vision through <i>thoughtful design.</i></p>
+  </div>
+  <div class="creative-images">
+     <img id="left-image" src="/images/jazmin-quaynor-CXjp1ycr5Vw-unsplash.jpg" alt="Graphic Design Posters">
+     <div class="parallax-container">
+       <div id="right-image" class="parallax"></div>
+     </div>
+  </div>
+  </article>
+  <section class="contact-section" id="contact">
+  <hr>
+  <h5>Contact</h5>
+  <div class="prompt-container">
+    <p class="overlay-text">Thinking of Reaching out?</p>
+    <div class="speech-bubble" style="top: 10%; left: 30%; background-color: #1c1c1c; border: 1px solid #fff">
+        <p style="color: #fff;">contact</p>
+    </div>
+    <div class="speech-bubble" style="top: 40%; left: 50%;">
+      <p>contact</p>
+    </div>
+    <div class="speech-bubble" style="top: 50%; left: 70%;">
+      <p>contact</p>
+    </div>
+  </div>
+  <div class="contact-area">
+   <p>Fill up the form below to send me a message or just to connect. Whether you have questions about my work, ideas for collaboration or a chat. </p>
+   <form class="contact-form" >
+     <input id="name" type="text"  placeholder="Full Name" maxlength="100" required>
+     <input id="email" type="email" placeholder="Email" maxlength="20" required>
+       <select name="select" class="select">
+          <option disabled selected>Choose a topic</option>
+          <option value="general">General Question</option>
+          <option value="uxdesign">UX Design</option>
+          <option value="webdev">Web Development</option>
+          <option value="others">Others</option>
+       </select>
+     <textarea name="msg" placeholder="Your Message"></textarea>
+     <input id="submit" type="submit" value="SEND">
+   </form>
+ </div> 
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <p class="footer-heading">Version</p>
+        <p class="text">2024 © Edition</p>
+      </div>
+      <div class="footer-center">
+        <p class="footer-heading">Local Time</p>
+        <iframe src="https://free.timeanddate.com/clock/i9e8wqdn/n240/fc1c1c1c/tct/pct/ahl/th2/ts1/ta1" frameborder="0" width="134" height="18" allowtransparency="true"></iframe>
+      </div>
+      <div class="footer-right">
+        <p class="footer-heading">Socials</p>
+        <a href="www.linkedin.com/in/cashel-boh" class="text">Linkedin</a>
+        <a href="mailto:cashel.boh@gmail.com" class="text">Email</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="https://unpkg.com/lenis@1.1.1/dist/lenis.min.js"></script> 
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+  
+    const splitTypes = document.querySelectorAll('.reveal-type');
+  
+    splitTypes.forEach((char) => {
+      const text = new SplitType(char, { types: 'chars' });
+  
+      gsap.from(text.chars, {
+        scrollTrigger: {
+          trigger: char,
+          start: 'top 80%',
+          end: 'top 20%',
+          scrub: true,
+          markers: false,
+        },
+        opacity: 0.2,
+        stagger: 0.1,
+      });
+    });
+  
+    const lenis = new Lenis();
+  
+    lenis.on('scroll', (e) => {
+      console.log(e);
+    });
+  
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+  
+    requestAnimationFrame(raf);
+  </script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+      var typed = new Typed(".dynamic-txts", {
+      strings: ["FRONTEND DEVELOPER.", "UX DESIGNER."],
+      typeSpeed: 170,
+      backSpeed: 170,
+      loop: true,
+    });
+  </script>
+  <script src="main.js"></script>
+ </body>
+</html>
